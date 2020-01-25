@@ -164,6 +164,15 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    "local-plugin",
+    {
+      // gzip compression
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'jsx', 'svg', 'png', 'mp4', 'jpg', 'jpeg', 'ico', 'webm', 'txt'],
+        verbose: true
+      }
+    },
   ]
 };
