@@ -57,3 +57,10 @@ public/
 
 # Bundle stats
 bundle-stats.json
+yarn.lock
+
+# environment files
+*.env
+*.env.production
+*.env.development
+.env

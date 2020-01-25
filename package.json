@@ -6,6 +6,7 @@
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "classnames": "^2.2.6",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.0.20",
     "gatsby-pagination": "^1.2.0",
     "gatsby-plugin-catch-links": "^2.0.4",
