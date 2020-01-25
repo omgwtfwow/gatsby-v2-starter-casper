@@ -16,7 +16,10 @@ const ReadNextStory = props => {
       <Link className={classes} style={styles} to={path}>
         <section className="post">
           <h2>{title}</h2>
-          <p>{excerpt}&hellip;</p>
+          <p>
+            {excerpt}
+&hellip;
+          </p>
         </section>
       </Link>
     );

@@ -1,15 +1,15 @@
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${process.env.NODE_ENV}`
 });
 
 const path = require("path");
 const _ = require("lodash");
 const fs = require("fs");
-const siteConfig = require("./data/SiteConfig");
 const {
   createPaginationPages,
   createLinkedPages
 } = require("gatsby-pagination");
+const siteConfig = require("./data/SiteConfig");
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
