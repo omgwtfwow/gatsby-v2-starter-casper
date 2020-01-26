@@ -27,8 +27,8 @@
 }
 
 .main-header .social-media-icon .social-svg:hover {
-    color: #bbc7cc;
-    background: white;
+    color: #ffffff;
+    background: rgb(255, 255, 255, 0.4);
 }
 
 /* ==========================================================================
