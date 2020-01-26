@@ -13,9 +13,7 @@ class AuthorStats extends React.Component {
     };
     return (
       <span className="author-stats">
-        <i className="icon-stats" /> 
-        {' '}
-        {getPostText()}
+        <i className="icon-stats" /> {getPostText()}
       </span>
     );
   }

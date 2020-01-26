@@ -1,6 +1,7 @@
 import React from "react";
 import "./AuthorImage.css";
 
+
 class AuthorImage extends React.Component {
   render() {
     const { name, image, url } = this.props.author;

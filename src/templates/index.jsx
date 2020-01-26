@@ -71,9 +71,9 @@ class IndexTemplate extends React.Component {
             {/* All the main content gets inserted here */}
             <div className="home-template">
               {/* The big featured header */}
-              <MainHeader cover={config.siteCover}>
+                  <MainHeader className="main-header video-container" cover={config.siteCover} video="/videos/bg.mp4">
+                    {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
                 <MainNav overlay={config.siteCover}>
-                  <BlogLogo logo={config.siteLogo} title={config.siteTitle} />
                   <MenuButton
                     navigation={config.siteNavigation}
                     onClick={this.handleOnClick}
@@ -85,7 +85,7 @@ class IndexTemplate extends React.Component {
                     <PageDescription text={config.siteDescription} />
                     <SocialMediaIcons
                       urls={config.siteSocialUrls}
-                      color="currentColor"
+                          color="#ffffffcc"
                     />
                   </div>
                 </div>

@@ -13,13 +13,7 @@ class Pagination extends React.Component {
           text="← Newer Posts"
         />
         <span className="page-number">
-          Page 
-          {' '}
-          {page}
-          {' '}
-of 
-          {' '}
-          {pages}
+          Page {page} of {pages}
         </span>
         <PaginationLink
           className="older-posts"

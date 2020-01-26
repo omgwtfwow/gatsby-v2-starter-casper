@@ -8,9 +8,7 @@ class Footer extends Component {
       if (show) {
         return (
           <section className="poweredby">
-            Proudly published with 
-            {' '}
-            <a href="https://gatsbyjs.org">Gatsby</a>
+            Proudly published with <a href="https://gatsbyjs.org">Gatsby</a>
           </section>
         );
       }
@@ -22,10 +20,7 @@ class Footer extends Component {
     return (
       <footer className="site-footer clearfix">
         <section className="copyright">
-          <a href={url || "/"}>{label}</a>
-          {' '}
-&copy;
-          {" "}
+          <a href={url || "/"}>{label}</a> &copy;{" "}
           {year || new Date().getFullYear()}
         </section>
         <PoweredBy show={promoteGatsby} />

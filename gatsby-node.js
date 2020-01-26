@@ -53,6 +53,7 @@ exports.createPages = ({ graphql, actions }) => {
         path.resolve(`content/${siteConfig.blogAuthorDir}/authors/`)
       )
     ) {
+      // eslint-disable-next-line prefer-promise-reject-errors
       reject(
         "The 'authors' folder is missing within the 'blogAuthorDir' folder."
       );

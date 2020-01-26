@@ -22,7 +22,8 @@ const ListItem = props => {
 const mapToListParts = (item, index) => {
   if (typeof item === "string" || typeof item === "number") {
     return createElement(ListItem, { key: item, primaryText: item });
-  } if (isValidElement(item)) {
+  }
+  if (isValidElement(item)) {
     return item;
   }
 

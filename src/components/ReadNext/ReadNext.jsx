@@ -18,7 +18,7 @@ const ReadNextStory = props => {
           <h2>{title}</h2>
           <p>
             {excerpt}
-&hellip;
+            &hellip;
           </p>
         </section>
       </Link>

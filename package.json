@@ -44,7 +44,8 @@
     "react-scroll": "^1.7.10",
     "react-share": "^1.15.1",
     "react-social-icons": "^2.7.0",
-    "react-twitter-widgets": "^1.4.0"
+    "react-twitter-widgets": "^1.4.0",
+    "react-video-cover": "^1.2.2"
   },
   "devDependencies": {
     "cli-glob": "^0.1.0",

@@ -7,7 +7,7 @@ import Layout from "../components/layout";
 
 class CategoryTemplate extends React.Component {
   render() {
-    const {category} = this.props.pageContext;
+    const { category } = this.props.pageContext;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const authorsEdges = this.props.data.authors.edges;
     return (
