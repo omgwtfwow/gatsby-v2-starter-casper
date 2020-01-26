@@ -3,7 +3,7 @@
    ========================================================================== */
 
 html {
-    font-family: sans-serif;
+    font-family: "Cardo", serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -171,7 +171,7 @@ th { padding: 0; }
 /* Apply these base styles to all icons */
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
-    font-family: "casper-icons", "Open Sans", sans-serif;
+    font-family: "casper-icons", "Cardo", serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -239,7 +239,8 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    color: #45484d;
+    font-family: "Cardo", serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -247,7 +248,17 @@ body {
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
-    text-rendering: geometricPrecision;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-size: 2em;
+    line-height: 1.5em;
+    -webkit-font-smoothing: antialiased;
 }
 
 ::-moz-selection {
@@ -270,8 +281,18 @@ h6 {
     color: #2e2e2e;
     line-height: 1.15em;
     margin: 0 0 0.4em;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cardo", serif;
     text-rendering: geometricPrecision;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-stretch: 100%;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -2px;
+    text-indent: -3px;
 }
 
 h1 {
@@ -521,7 +542,7 @@ input:not([type="radio"]):not([type="checkbox"]) {
     padding: 6px 9px;
     margin: 0 0 5px;
     outline: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Cardo", serif;
     font-size: 1.6rem;
     font-weight: 100;
     line-height: 1.4em;
@@ -575,7 +596,7 @@ button {
     outline: none;
     text-decoration: none;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Cardo", serif;
     font-size: 11px; /* Hacks targeting Firefox. */
     line-height: 13px; /* Hacks targeting Firefox. */
     font-weight: 300;

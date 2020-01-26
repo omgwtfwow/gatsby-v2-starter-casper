@@ -5,7 +5,7 @@ module.exports = {
   siteTitle: "Juan González", // Site title.
   siteTitleAlt: "Juan González | Technical Marketing Consultant", // Alternative site title for SEO.
   siteLogo:"/logos/logo-192x192.png",
-  siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
+  siteUrl: "https://juangonzalez.com.au", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
       "Into people, marketing, tech, business, economics, games and science", // Website description used for RSS feeds/meta description tag.
