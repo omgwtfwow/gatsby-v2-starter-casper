@@ -142,7 +142,7 @@ query IndexQuery {
       node {
         uid
         name
-        image
+        profile_image
         url
         bio
       }

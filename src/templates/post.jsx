@@ -198,7 +198,7 @@ export const pageQuery = graphql`
         node {
           uid
           name
-          image
+          profile_image
           url
           bio
         }

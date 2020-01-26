@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { graphql } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
@@ -141,7 +142,7 @@ export const pageQuery = graphql`
         node {
           uid
           name
-          image
+          profile_image
           url
           bio
           location
