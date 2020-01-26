@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import { graphql } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
@@ -11,7 +12,6 @@ import SiteWrapper from "../components/SiteWrapper/SiteWrapper";
 import Footer from "../components/Footer/Footer";
 import MainHeader from "../components/MainHeader/MainHeader";
 import MainNav from "../components/MainNav/MainNav";
-import BlogLogo from "../components/BlogLogo/BlogLogo";
 import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
@@ -71,8 +71,8 @@ class IndexTemplate extends React.Component {
             {/* All the main content gets inserted here */}
             <div className="home-template">
               {/* The big featured header */}
-                  <MainHeader className="main-header video-container" cover={config.siteCover} video="/videos/bg.mp4">
-                    {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+              <MainHeader className="main-header video-container" cover={config.siteCover} video="/videos/bg.mp4">
+                {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
                 <MainNav overlay={config.siteCover}>
                   <MenuButton
                     navigation={config.siteNavigation}
@@ -85,7 +85,7 @@ class IndexTemplate extends React.Component {
                     <PageDescription text={config.siteDescription} />
                     <SocialMediaIcons
                       urls={config.siteSocialUrls}
-                          color="#ffffffcc"
+                      color="#ffffffcc"
                     />
                   </div>
                 </div>
