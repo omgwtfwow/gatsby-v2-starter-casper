@@ -3,21 +3,25 @@ import { graphql } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
 import { Link } from "react-scroll";
-import PostListing from "../components/PostListing/PostListing";
+// import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 import Drawer from "../components/Drawer/Drawer";
 import Navigation from "../components/Navigation/Navigation";
 import SiteWrapper from "../components/SiteWrapper/SiteWrapper";
 import Footer from "../components/Footer/Footer";
+import MainContent from "../components/MainContent/MainContent";
 import MainHeader from "../components/MainHeader/MainHeader";
 import MainNav from "../components/MainNav/MainNav";
 import MenuButton from "../components/MenuButton/MenuButton";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
-import PaginatedContent from "../components/PaginatedContent/PaginatedContent";
+// import PaginatedContent from "../components/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 import Layout from "../components/layout";
+import PostFormatting from "../components/PostFormatting/PostFormatting";
+import AuthorImage from "../components/AuthorImage/AuthorImage";
+import PostHeader from "../components/PostHeader/PostHeader";
 
 class IndexTemplate extends React.Component {
   state = {
@@ -48,15 +52,8 @@ class IndexTemplate extends React.Component {
 
   render() {
     const {
-      nodes,
-      page,
-      pages,
-      total,
-      limit,
-      prev,
-      next
+      nodes
     } = this.props.pageContext;
-    const authorsEdges = this.props.data.authors.edges;
 
     return (
       <Layout location={this.props.location}>
@@ -100,18 +97,29 @@ class IndexTemplate extends React.Component {
                   <span className="hidden">Scroll Down</span>
                 </Link>
               </MainHeader>
+              <MainContent>
+                <PostFormatting className="post">
+                  <AuthorImage author={{
+                          name:"Juan",
+                          profile_image:"/images/juan.jpg",
+                          website:"https://juangonzalez.com.au"
+                          }}
+                  />
+                  <PostHeader>
+                    <h2 className="post-title">{ this.props.data.homePost.nodes[0].frontmatter.title }</h2>
+                    <section className="post-meta" />
+                  </PostHeader>
 
-              <PaginatedContent
-                page={page}
-                pages={pages}
-                total={total}
-                limit={limit}
-                prev={prev}
-                next={next}
-              >
-                {/* PostListing component renders all the posts */}
-                <PostListing postEdges={nodes} postAuthors={authorsEdges} />
-              </PaginatedContent>
+                  <section
+                    className="post-content"
+                    dangerouslySetInnerHTML={{ __html: this.props.data.homePost.nodes[0].html }}
+                  />
+
+                </PostFormatting>
+              </MainContent>
+              {/* PostListing component renders all the posts */}
+              {/* <PostListing postEdges={nodes} postAuthors={authors} /> */}
+
             </div>
 
             {/* The tiny footer at the very bottom */}
@@ -128,21 +136,28 @@ class IndexTemplate extends React.Component {
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query IndexQuery {
-    # posts data comes from the context
-    # authors
-    authors: allAuthorsJson {
-      edges {
-        node {
-          uid
-          name
-          image
-          url
-          bio
-        }
+query IndexQuery {
+  authors: allAuthorsJson {
+    edges {
+      node {
+        uid
+        name
+        image
+        url
+        bio
       }
     }
   }
+  homePost: allMarkdownRemark(filter: {fields: {slug: {eq: "/about-me"}}}) {
+    nodes {
+      html
+      frontmatter {
+        title
+        author
+      }
+    }
+  }
+}
 `;
 
 export default IndexTemplate;

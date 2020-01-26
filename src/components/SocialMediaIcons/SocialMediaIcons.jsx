@@ -13,7 +13,7 @@ class SocialMediaIcons extends React.Component {
               key={url}
               className="social-media-icon"
               url={url}
-              color={color}
+              bgColor={color}
               style={{ height: null, width: null }}
             />
           ))}
