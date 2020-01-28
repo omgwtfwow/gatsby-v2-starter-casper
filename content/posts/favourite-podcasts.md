@@ -1,6 +1,6 @@
 ---
 title: "Favourite podcasts"
-cover: "/images/hunter-newton-yKc4YuGMPC4-unsplash.jpg"
+cover: "/images/blog-cover.jpg"
 author: "juan"
 date: "2020-01-01"
 ---
