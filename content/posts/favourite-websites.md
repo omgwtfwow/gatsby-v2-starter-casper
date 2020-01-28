@@ -1,6 +1,6 @@
 ---
 title: "Favourite websites"
-cover: "/images/blog-cover.jpg"
+cover: "/images/sereja-ris-g3B53PbBfwU-unsplash.jpg"
 author: "juan"
 date: "2020-01-01"
 ---
