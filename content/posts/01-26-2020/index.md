@@ -63,7 +63,6 @@ No forms, message me on [LinkedIn](https://www.linkedin.com/in/juangc), [Whats
 -   [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
 
 ### Favourite Books
-
 -   [Thinking Fast & Slow by Daniel Kanneman](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow)
 -   [Nudge by Richard H. Thaler & Cass R. Sunstein](https://www.goodreads.com/book/show/3450744-nudge)
 -   [Sapiens: A Brief History of Humankind by Yuval Noah Harari](https://www.goodreads.com/book/show/23692271-sapiens)
