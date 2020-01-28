@@ -10,9 +10,9 @@ class AuthorModel {
   static getAuthor(authorEdges, authorUid, fallbackId) {
     const authorList = authorEdgesToList(authorEdges);
     if (this.hasAuthor(authorEdges, authorUid)) {
-      return authorList.find(findName(authorUid));
+      return authorList.find(findName('juan'));
     }
-    return authorList.find(findName(fallbackId));
+    return authorList.find(findName('juan'));
   }
 }
 

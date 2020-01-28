@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import React from "react";
 import { Link } from "gatsby";
 import "./AuthorInfo.css";
@@ -13,17 +14,20 @@ const Bio = props => {
   }
   return (
     <p>
-      Read <Link to={morePostsUrl}>more posts</Link> by this author.
+      Read
+      {' '}
+      <Link to={morePostsUrl}>more posts</Link>
+      {' '}
+by this author.
     </p>
   );
 };
 
 class AuthorInfo extends React.Component {
   render() {
-    const { prefix } = this.props;
-    const { uid, name, image, bio, url, location } = this.props.author;
+    const { prefix, author: {uid, name, profile_image, bio, url, location }} = this.props;
     const authorInfoUrl = prefix ? `${prefix}/${uid}` : uid;
-    if (image) {
+    if (profile_image) {
       return (
         <section className="author">
           <h4>
