@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About Me"
 cover: "/images/blog-cover.jpg"
 author: "juan"
 date: "2020-01-01"
@@ -50,24 +50,8 @@ No forms, message me on [LinkedIn](https://www.linkedin.com/in/juangc), [Whats
 
 Since you're here and you seem interested, here's a list of things I like to spend time on
 
-### Favorite Websites
--   [Techmeme](https://www.techmeme.com)
--   [Stratechery](https://www.stratechery.com)
--   [The Information](https://www.theinformation.com/)
--   [The New Consumer](https://newconsumer.com)
+- ### [Favorite Websites](/favourite-websites)
 
-### Favourite Podcasts
--   [This American Life](https://www.thisamericanlife.org/)
--   [Planet Money](https://www.npr.org/sections/money/)
--   [Freakonomics](https://freakonomics.com/archive/)
--   [The Moth](https://themoth.org/podcast)
--   [Stuff You Should Know](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/)
--   [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
+- ### [Favourite Podcasts](/favourite-podcasts)
 
-### Favourite Books
--   [Thinking Fast & Slow by Daniel Kanneman](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow)
--   [Nudge by Richard H. Thaler & Cass R. Sunstein](https://www.goodreads.com/book/show/3450744-nudge)
--   [Sapiens: A Brief History of Humankind by Yuval Noah Harari](https://www.goodreads.com/book/show/23692271-sapiens)
--   [Homo Deus: A History of Tomorrow by Yuval Noah Harari](https://www.goodreads.com/book/show/31138556-homo-deus)
--   [Cien Años de Soledad by Gabriel García Márquez](https://www.goodreads.com/book/show/370523.Cien_a_os_de_soledad)
--   [The Nexus Trilogy by Ramez Naam](https://www.goodreads.com/book/show/13642710-nexus)
+- ### [Favourite Books](/favourite-books)
