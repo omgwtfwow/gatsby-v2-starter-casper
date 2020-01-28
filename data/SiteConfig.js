@@ -21,7 +21,7 @@ module.exports = {
   siteSocialUrls: [
     "https://www.linkedin.com/in/juangc/",
     "mailto:hello@juangonzalez.com.au",
-    "https://github.com/omgwtfwow",
+    "https://github.com/omgwtfwow/juangonzalez.com.au",
     "https://api.whatsapp.com/send?phone=+61432110431"
   ],
   postDefaultCategoryID: "Default", // Default category for posts.
