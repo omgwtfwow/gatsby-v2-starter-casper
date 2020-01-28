@@ -48,6 +48,8 @@ No forms, message me on [LinkedIn](https://www.linkedin.com/in/juangc), [Whats
 
 ## A few of my favourite things
 
+Since you're here and you seem interested, here's a list of things I like to spend time on
+
 ### Favorite Websites
 -   [Techmeme](https://www.techmeme.com)
 -   [Stratechery](https://www.stratechery.com)
