@@ -14,3 +14,4 @@ Things I've read and re-read. Always up for coffee!
 -   [Cien Años de Soledad by Gabriel García Márquez](https://www.goodreads.com/book/show/370523.Cien_a_os_de_soledad)
 -   [The Nexus Trilogy by Ramez Naam](https://www.goodreads.com/book/show/13642710-nexus)
 -   [Don Quijote de la Mancha by Miguel de Cervantes Saavedra](https://www.goodreads.com/book/show/3836.Don_Quixote)
+-   [Always Day One: How the Tech Titans Stay on Top by Alex Kantrowitz](https://www.goodreads.com/book/show/52027218-always-day-one)
