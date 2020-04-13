@@ -18,7 +18,7 @@ const Bio = props => {
       {' '}
       <Link to={morePostsUrl}>more posts</Link>
       {' '}
-by this author.
+      by this author.
     </p>
   );
 };
